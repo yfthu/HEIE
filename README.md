@@ -1,6 +1,6 @@
 
 <p align="center">
-<a href="https://arxiv.org/abs/2503.13383">
+<a href="https://arxiv.org/abs/2411.17261">
     <strong>HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator</strong>
   </a>
   <br>
