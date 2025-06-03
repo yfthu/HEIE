@@ -30,7 +30,7 @@
   </a>
 </p>
 
-## 📝 Introduction
+## 📝 Introduction 
 🌐 AIGC images are prevalent across various fields, yet they frequently suffer from quality issues like artifacts and unnatural textures. 
 
 🔄 Specialized models aim to predict defect region heatmaps but face two primary challenges: (1) lack of explainability, failing to provide reasons and analyses for subtle defects, and (2) inability to leverage common sense and logical reasoning, leading to poor generalization. 
@@ -102,5 +102,4 @@ If you find HEIE useful for your research or applications, please cite our paper
 ```
 
 ## Acknowledgement
-
 - [InternVL2](https://github.com/OpenGVLab/InternVL)
