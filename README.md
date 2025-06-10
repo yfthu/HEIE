@@ -3,6 +3,8 @@
 <a href="https://arxiv.org/abs/2411.17261">
     <strong>HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator</strong>
   </a>
+  <sup></sup>
+  <strong>CVPR 2025</strong>
   <br>
     <span>Fan Yang</a><sup></sup>,
     </span>
