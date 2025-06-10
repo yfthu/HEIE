@@ -86,18 +86,18 @@ Our Adaptive Hierarchical Implausibility Mapper synergizes low-level image featu
 
 
 ### Expl-AIGI-Eval Dataset：https://github.com/yfthu/HEIE/tree/main/Expl-AIGI-Eval%20Dataset
-
-
+For the RichHF dataset, we adopt the original train, dev, and test splits of the RichHF dataset. For each image in the train set, we annotate multiple chain of thought and explanations data, enhancing the diversity of the training set.
 
 ## 📖 Citation
 If you find HEIE useful for your research or applications, please cite our paper:
 
 ```
-@article{yang2024heie,
-  title={HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator},
+@inproceedings{yang2025heie,
+  title={Heie: Mllm-based hierarchical explainable aigc image implausibility evaluator},
   author={Yang, Fan and Zhen, Ru and Wang, Jianing and Zhang, Yanhao and Chen, Haoxiang and Lu, Haonan and Zhao, Sicheng and Ding, Guiguang},
-  journal={arXiv preprint arXiv:2411.17261},
-  year={2024}
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={3856--3866},
+  year={2025}
 }
 ```
 
