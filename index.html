@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility
+    Evaluator</title>
+  <link rel="icon" type="image/x-icon" href="static/images/rocket.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <style>
+    .item {
+      margin-bottom: 4rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid #eee;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Fan Yang</a>,</span>
+                <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Ru Zhen</a>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Jianing Wang</a>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yanhao Zhang</a>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Haoxiang Chen</a>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Haonan Lu</a>,</span>
+              <span class="author-block">
+                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Sicheng Zhao</a>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Guiguang Ding</a></span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Tsinghua University, BNRist, OPPO AI Center, Peking University
+                    <br>CVPR 2025</span>
+                    <!-- <br><p style="color: red;">This homepage is currently under construction !</p></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2411.17261" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link 
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/yfthu/HEIE/tree/main/Expl-AIGI-Eval%20Dataset" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Expl-AIGI-Eval Dataset</span>
+                  </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://github.com/yfthu/HEIE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Project</span>
+                  </a>
+                  </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            AIGC images are prevalent across various fields, yet they frequently suffer from quality issues like artifacts and unnatural textures. Specialized models aim to predict defect region heatmaps but face two primary challenges: (1) lack of explainability, failing to provide reasons and analyses for subtle defects, and (2) inability to leverage common sense and logical reasoning, leading to poor generalization. Multimodal large language models (MLLMs) promise better comprehension and reasoning but face their own challenges: (1) difficulty in fine-grained defect localization due to the limitations in capturing tiny details; and (2) constraints in providing pixel-wise outputs necessary for precise heatmap generation. To address these challenges, we propose HEIE: a novel MLLM-Based Hierarchical Explainable image Implausibility Evaluator. We introduce the CoT-Driven Explainable Trinity Evaluator, which integrates heatmaps, scores, and explanation outputs, using CoT to decompose complex tasks into subtasks of increasing difficulty and enhance interpretability. Our Adaptive Hierarchical Implausibility Mapper synergizes low-level image features with high-level mapper tokens from LLMs, enabling precise local-to-global hierarchical heatmap predictions through an uncertainty-based adaptive token approach. Moreover, we propose a new dataset: Expl-AIGI-Eval, designed to facilitate interpretable implausibility evaluation of AIGC images. Our method demonstrates state-of-the-art performance through extensive experiments. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <div id="results-carousel" class="carousel results-carousel"> -->
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/intro_v4_00.png" alt="MY ALT TEXT" style="display: block; margin: 0 auto; width: 70%;"/>
+        <h2 class="subtitle has-text-centered">
+          (a) Specialized models lack the ability to explain and analyze subtle implausibility regions, hindering understanding for general users. (b) MLLMs struggle with precise localization of local defects and cannot directly output pixel-level implausibility areas. (c) Our CoT-Driven Explainable Trinity Evaluator can generate heatmaps, analyses, and scores. In our Adaptive Hierarchical Implausibility Mapper, local and global heatmaps are predicted separately, improving the localization of tiny implausibilities
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/method_v3_00.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          The Implausibility Mapper processes a dynamic number of special [MAP] tokens and the image features to enhance detailed implausibility localization. We implement the Adaptive Hierarchical Implausibility Mapper through the local and global heatmaps and the uncertainty-based adaptive fusion. In the verisimilitude scorer, features from the heatmap and the special [SCORE] token are integrated for score prediction. Furthermore, our Cot-Driven Explainable System guides the LLM to decompose complex issues into progressive subproblems, facilitating the mutual enhancement of heatmap, analysis, and score prediction, thus improving explainability.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/dataset_v2_wjn_00.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <strong>Three stages in  Expl-AIGI-Eval dataset construction</strong>: <strong>Stage 1</strong> - Visual Prompting: Defect regions are circled on images to aid Claude-3.5-sonnet in accurately locating problem areas. <strong>Stage 2</strong> - LLM Free-Form Output: Claude-3.5-sonnet generates free-form defect location and analysis. <strong>Stage 3</strong> - In-Context Learning-Based Formatting: GPT-4o is used for format standardization.
+       </h2>
+     </div>
+     <div class="item">
+
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/3col_desc_v4_00.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        <strong>Model outputs of HEIE.</strong> HEIE not only predicts implausibility heatmaps but also provides image descriptions, problematic regions identification, analysis of issues, and score, achieving reliable and explainable implausibility evaluation. Note that for the last AIGC image, which has no evident defects, our model avoids false positives.
+     </h2>
+   </div>
+
+   <div class="item">
+    <!-- Your image here -->
+    <img src="static/images/3col_baseline11142036_00.png" alt="MY ALT TEXT"/>
+    <h2 class="subtitle has-text-centered">
+      <strong>Comparison with Baselines.</strong> Each set of images, from left to right, includes:  (a)  Input Image, (b) Output of InternViT-300M-448px, (c) Output of CLIP-ViT-Base-Patch16, (d) Output of ours HEIE, (e) Ground Truth.
+   </h2>
+  </div>
+
+  <div class="item">
+    <!-- Your image here -->
+    <img src="static/images/5col_local_v1_00.png" alt="MY ALT TEXT"/>
+    <h2 class="subtitle has-text-centered">
+      <strong>Results of Hierarchical Implausibility Mapper.</strong> Columns (c) and (d) are the global and local heatmaps from our Hierarchical Implausibility Mapper. Column (e) illustrates the final heatmap after adaptively fusing the global and local heatmaps.
+   </h2>
+ </div>
+
+
+
+  <!-- </div> -->
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+
+
+
+<!-- Paper poster
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+-->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{yang2024heie,
+          title={HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator},
+          author={Yang, Fan and Zhen, Ru and Wang, Jianing and Zhang, Yanhao and Chen, Haoxiang and Lu, Haonan and Zhao, Sicheng and Ding, Guiguang},
+          journal={arXiv preprint arXiv:2411.17261},
+          year={2024}
+        }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
