@@ -30,6 +30,11 @@
   </a>
 </p>
 
+
+### Expl-AIGI-Eval Dataset：https://github.com/yfthu/HEIE/tree/main/Expl-AIGI-Eval%20Dataset
+For the RichHF dataset, we adopt the original train, dev, and test splits of the RichHF dataset. For each image in the train set, we annotate multiple chain of thought and explanations data, enhancing the diversity of the training set.
+
+
 ## 📝 Introduction 
 🌐 AIGC images are prevalent across various fields, yet they frequently suffer from quality issues like artifacts and unnatural textures. 
 
@@ -84,9 +89,6 @@ Our Adaptive Hierarchical Implausibility Mapper synergizes low-level image featu
 | **HEIE (ours)**| **0.00510**   | **0.00076**| **1.629** | **0.684** | **0.423** | **0.938** |
 
 
-
-### Expl-AIGI-Eval Dataset：https://github.com/yfthu/HEIE/tree/main/Expl-AIGI-Eval%20Dataset
-For the RichHF dataset, we adopt the original train, dev, and test splits of the RichHF dataset. For each image in the train set, we annotate multiple chain of thought and explanations data, enhancing the diversity of the training set.
 
 ## 📖 Citation
 If you find HEIE useful for your research or applications, please cite our paper:
