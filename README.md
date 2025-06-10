@@ -104,4 +104,6 @@ If you find HEIE useful for your research or applications, please cite our paper
 ```
 
 ## Acknowledgement
+- [RichHF](https://github.com/google-research-datasets/richhf-18k)
+- [AbHuman](https://github.com/Enderfga/HumanRefiner)
 - [InternVL2](https://github.com/OpenGVLab/InternVL)
